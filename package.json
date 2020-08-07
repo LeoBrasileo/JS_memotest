@@ -1,0 +1,22 @@
+{
+  "name": "js_memotest",
+  "version": "1.0.0",
+  "description": "Jugar al memotest en tu navegador",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoBrasileo/JS_memotest.git"
+  },
+  "author": "LeoBrasileo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeoBrasileo/JS_memotest/issues"
+  },
+  "homepage": "https://github.com/LeoBrasileo/JS_memotest#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  }
+}
