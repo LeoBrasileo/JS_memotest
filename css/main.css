@@ -1,0 +1,26 @@
+.carta {
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: all 0.5s linear;
+    position: relative;
+    perspective: 1000px;
+    background-color: rgba(0, 0, 255, 0.747);
+}
+
+.centrado {
+    margin-left: auto;
+    margin-right:auto;
+	display:block;
+}
+
+.cara {
+    backface-visibility: hidden;
+}
+
+.cara.detras {
+    transform: rotateY(180deg);
+}
+
+img{
+    height:200px;
+}

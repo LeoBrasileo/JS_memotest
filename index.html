@@ -5,10 +5,197 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Memotest</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+    crossorigin="anonymous">
+    <link rel="stylesheet" type='text/css' media='screen' href="css/main.css">
 </head>
 <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="alert alert-primary" role="alert" id="estado">
+                    <h5>Apreta una carta para darla vuelta</h5>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <p>Puntos: <strong id="points">0</strong></p>
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-warning">Comenzar de nuevo</button>
+            </div>
+        </div>
+    </div>
+    <div><label></label></div>
+    <div class="container" id="tablero">
+        <div class="row">
+            <div class="col-sm">
+                <div class="carta-box">
+                    <div align="center" id="carta1" class="carta">
+                        <div class="cara">
+                            <img class="centrado" src="img/tapa.png"
+                            height="200px">
+                        </div>
+                        <div class="cara detras">
+                            <img src="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="carta-box">
+                    <div align="center" id="carta2" class="carta">
+                        <div class="cara">
+                            <img class="centrado" src="img/tapa.png"
+                            height="200px">
+                        </div>
+                        <div class="cara detras">
+                            <img src="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="carta-box">
+                    <div align="center" id="carta3" class="carta">
+                        <div class="cara">
+                            <img class="centrado" src="img/tapa.png"
+                            height="200px">
+                        </div>
+                        <div class="cara detras">
+                            <img src="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div><label></label></div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="carta-box">
+                    <div align="center" id="carta4" class="carta">
+                        <div class="cara">
+                            <img class="centrado" src="img/tapa.png"
+                            height="200px">
+                        </div>
+                        <div class="cara detras">
+                            <img src="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="carta-box">
+                    <div align="center" id="carta5" class="carta">
+                        <div class="cara">
+                            <img class="centrado" src="img/tapa.png"
+                            height="200px">
+                        </div>
+                        <div class="cara detras">
+                            <img src="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="carta-box">
+                    <div align="center" id="carta6" class="carta">
+                        <div class="cara">
+                            <img class="centrado" src="img/tapa.png"
+                            height="200px">
+                        </div>
+                        <div class="cara detras">
+                            <img src="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div><label></label></div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="carta-box">
+                    <div align="center" id="carta7" class="carta">
+                        <div class="cara">
+                            <img class="centrado" src="img/tapa.png"
+                            height="200px">
+                        </div>
+                        <div class="cara detras">
+                            <img src="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="carta-box">
+                    <div align="center" id="carta8" class="carta">
+                        <div class="cara">
+                            <img class="centrado" src="img/tapa.png"
+                            height="200px">
+                        </div>
+                        <div class="cara detras">
+                            <img src="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="carta-box">
+                    <div align="center" id="carta9" class="carta">
+                        <div class="cara">
+                            <img class="centrado" src="img/tapa.png"
+                            height="200px">
+                        </div>
+                        <div class="cara detras">
+                            <img src="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div><label></label></div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="carta-box">
+                    <div align="center" id="carta10" class="carta">
+                        <div class="cara">
+                            <img class="centrado" src="img/tapa.png"
+                            height="200px">
+                        </div>
+                        <div class="cara detras">
+                            <img src="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="carta-box">
+                    <div align="center" id="carta11" class="carta">
+                        <div class="cara">
+                            <img class="centrado" src="img/tapa.png"
+                            height="200px">
+                        </div>
+                        <div class="cara detras">
+                            <img src="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="carta-box">
+                    <div align="center" id="carta12" class="carta">
+                        <div class="cara">
+                            <img class="centrado" src="img/tapa.png"
+                            height="200px">
+                        </div>
+                        <div class="cara detras">
+                            <img src="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src='main.js'></script>
 </body>
 </html>
