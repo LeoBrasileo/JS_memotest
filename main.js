@@ -2,6 +2,8 @@ document.querySelectorAll(".carta").forEach(function($carta){
     $carta.onclick = girarCartas;
 });
 
+setBacks();
+
 function girarCartas(e) {
     const carta = e.target;
     let parentCarta = carta.parentNode;
@@ -119,5 +121,3 @@ function setBacks () {
         usados.push(numRN);
     }
 }
-
-setBacks();
